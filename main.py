@@ -11,6 +11,6 @@ if (unit == 'c' or unit == 'C'):
   print(f"{temp}° in Celsius is equivalent to {fahren}° Fahrenheit.")
 elif (unit == 'f' or unit =='F'):
   celc = ((temp-32)*5)/9
-  print(f"{temp}° in Fahrenhiet is equivalent to {celc}° Celsius.")
+  print(f"{temp}° in Fahrenheit is equivalent to {celc}° Celsius.")
 else:
-  print(f"Invlaid unit({unit})")
+  print(f"Invalid unit({unit})")
